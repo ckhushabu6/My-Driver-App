@@ -1,7 +1,7 @@
 const express = require('express');
-const userRouter = express.Router();
-const authController = require('../controllers/auth.controller');
-const { autC} = require('../controllers/auth.controller');
+
+
+
 export const authController = (req, res)=>{
     try{
          const userdata = res.body;
